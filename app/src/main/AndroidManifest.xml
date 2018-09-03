@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.afriz.footballclub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RealMadridFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".BarcelonaFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".BayernMunchFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".ManCityFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".ManUnFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".ACMilanFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".ChelseaFC"
+            android:label="Football Club"></activity>
+        <activity
+            android:name=".ArsenalFC"
+            android:label="Football Club"></activity>
+    </application>
+
+</manifest>
